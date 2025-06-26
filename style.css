@@ -168,3 +168,6 @@ button:hover{
     opacity: 1;
 }
 
+.project{
+    display:none;
+}
