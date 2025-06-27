@@ -104,10 +104,18 @@ button:hover{
 
 }
 
-.aboutMe{
-    display:none;
+.aboutMe {
+    position: relative;              /* CHANGE from absolute to relative */
+    width: 100vw;
+    min-height: 100vh;              /* Let it grow beyond one page */
     background-color: rgb(67, 115, 157);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: none;
 }
+
+
 
 .info{
     position:absolute;
@@ -281,6 +289,43 @@ button:hover{
     left:85%;
 }
 
+.experience{
+    position: absolute;
+    left:20%;
+    top:250%;
+}
+
+.nextechLogo{
+    position: absolute;
+    top:265%;
+    left:5%;
+    width:20%;
+    height:20%;
+}
+
+.elevateLogo{
+    position: absolute;
+    top:265%;
+    left:40%;
+    width:20%;
+    height:20%;
+}
+
+.vexLogo{
+    position: absolute;
+    top:300%;
+    left:5%;
+    width:20%;
+    height:20%;
+}
+
+.nhsLogo{
+    position: absolute;
+    top:300%;
+    left:40%;
+    width:20%;
+    height:20%;
+}
 .slider-wrapper {
     position: absolute;
     top:50%;
