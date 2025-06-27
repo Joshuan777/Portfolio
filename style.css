@@ -109,9 +109,183 @@ button:hover{
     background-color: rgb(67, 115, 157);
 }
 
+.info{
+    position:absolute;
+    top:50%;
+    max-width:45%;
+}
+
+.knowMe{
+    position:absolute;
+    max-width:45%;
+    top:60%;
+    color:white;
+}
+
+.why{
+    position:absolute;
+    top:93%;
+    max-width:45%;
+}
+
+.moreMe{
+    position:absolute;
+    max-width:45%;
+    top:100%;
+    color:white;
+}
+
+.skill{
+    position: absolute;
+    left:30%;
+    top:145%;
+}
+
+.one{
+    position: absolute;
+    top:165%;
+    left:5%
+}
+
+.eleven{
+    position:absolute;
+    top:192%;
+    left:9%;
+    color:yellow;
+    font-size:25px;
+}
+
+.two{
+    position: absolute;
+    top:165%; 
+    left:25%;
+}
+
+.twelve{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:192%;
+    left:29%;
+}
+
+.three{
+    position: absolute;
+    top:165%; 
+    left:45%;
+}
+
+.thirteen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:192%;
+    left:45%;
+}
+
+.four{
+    position: absolute;
+    top:165%; 
+    left:65%;
+}
+
+.fourteen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:192%;
+    left:67%;
+}
+
+.five{
+    position: absolute;
+    top:165%; 
+    left:85%;
+}
+
+.fifthteen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:192%;
+    left:89%;
+}
+
+.six{
+    position: absolute;
+    top:205%;
+    left:5%
+}
+
+.sixteen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:232%;
+    left:3%;
+}
+
+.seven{
+    position: absolute;
+    top:205%;
+    left:25%;
+}
+
+.seventeen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:232%;
+    left:23%;
+}
+
+.eight{
+    position: absolute;
+    top:205%;
+    left:45%
+}
+
+.eighteen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:232%;
+    left:46%;
+}
+
+.nine{
+    position: absolute;
+    top:205%;
+    left:65%
+}
+
+.nineteen{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:232%;
+    left:66%;
+}
+
+.ten{
+    position: absolute;
+    top:205%;
+    left:85%
+}
+
+.twenty{
+    position:absolute;
+    color:yellow;
+    font-size:25px;
+    top:232%;
+    left:85%;
+}
+
 .slider-wrapper {
-    position: relative;
-    max-width: 48rem;
+    position: absolute;
+    top:50%;
+    left:47%;
+    max-width: 40rem;
     margin: 0 auto;
     background-image: url('https://static.wikitide.net/therealmsmpwiki/8/8c/Book_and_Quill_Page_Blank_Mid.png');
     background-size: cover;
@@ -120,7 +294,6 @@ button:hover{
     padding: 1rem;
     border-radius: 0.5rem;
 }
-
 
 .slider {
     display: flex;
@@ -170,4 +343,36 @@ button:hover{
 
 .project{
     display:none;
+}
+
+.contactsP{
+    display:none;
+}
+
+.contactsP h1{
+    text-align: center;
+}
+
+form input,
+form textarea{
+    display:block;
+    width:100%;
+    margin-bottom: 1px;
+    padding:10px;
+    border:none;
+    border-radius: 5px;
+    background-color:#f7f7f7;
+    color:#333
+}
+
+form input:focus,
+form textarea:focus{
+    outline:none;
+    box-shadow: 0 0 5px #333;
+}
+
+form button{
+    display:block;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
