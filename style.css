@@ -3,6 +3,12 @@
     src: url('Font/MinecraftSeven.ttf') format('truetype');
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body {
     font-family: 'Minecraft', sans-serif;
 }
@@ -63,10 +69,6 @@ button:hover{
     z-index:-1;
 }
 
-.home{
-    display:none;
-}
-
 .overlay{
     position: absolute;
     top: 0;
@@ -105,12 +107,14 @@ button:hover{
 }
 
 .aboutMe {
-    background-color: rgb(67, 115, 157);
+    background-image: url('https://images3.alphacoders.com/132/thumb-1920-1321959.png');
     background-size: cover;
-    display: none;   
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height:3250px;
 }
-
-
 
 .info{
     position:relative;
@@ -151,28 +155,15 @@ button:hover{
     align-items: center;
 }
 
-.enchantment {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 20px;
-  margin-top: 100px;
-
-  width: 100%;
-  max-width: 100vw;   /* Prevents overflow beyond screen width */
-  box-sizing: border-box; /* Includes padding in width */
-  padding: 0 20px;    /* Optional: some spacing from edges */
-}
-
 .one{
     position: absolute;
-    top:165%;
-    left:5%
+    top:315%;
+    left:4%
 }
 
 .eleven{
     position:absolute;
-    top:192%;
+    top:344%;
     left:9%;
     color:yellow;
     font-size:25px;
@@ -180,7 +171,7 @@ button:hover{
 
 .two{
     position: absolute;
-    top:165%; 
+    top:315%; 
     left:25%;
 }
 
@@ -188,13 +179,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:192%;
+    top:344%;
     left:29%;
 }
 
 .three{
     position: absolute;
-    top:165%; 
+    top:315%; 
     left:45%;
 }
 
@@ -202,13 +193,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:192%;
+    top:344%;
     left:45%;
 }
 
 .four{
     position: absolute;
-    top:165%; 
+    top:315%; 
     left:65%;
 }
 
@@ -216,13 +207,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:192%;
+    top:344%;
     left:67%;
 }
 
 .five{
     position: absolute;
-    top:165%; 
+    top:315%; 
     left:85%;
 }
 
@@ -230,13 +221,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:192%;
+    top:344%;
     left:89%;
 }
 
 .six{
     position: absolute;
-    top:205%;
+    top:355%;
     left:5%
 }
 
@@ -244,13 +235,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:232%;
-    left:3%;
+    top:384%;
+    left:2%;
 }
 
 .seven{
     position: absolute;
-    top:205%;
+    top:355%;
     left:25%;
 }
 
@@ -258,13 +249,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:232%;
+    top:384%;
     left:23%;
 }
 
 .eight{
     position: absolute;
-    top:205%;
+    top:355%;
     left:45%
 }
 
@@ -272,13 +263,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:232%;
+    top:384%;
     left:46%;
 }
 
 .nine{
     position: absolute;
-    top:205%;
+    top:355%;
     left:65%
 }
 
@@ -286,13 +277,13 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:232%;
+    top:384%;
     left:66%;
 }
 
 .ten{
     position: absolute;
-    top:205%;
+    top:355%;
     left:85%
 }
 
@@ -300,23 +291,53 @@ button:hover{
     position:absolute;
     color:yellow;
     font-size:25px;
-    top:232%;
+    top:384%;
     left:85%;
 }
 
+.experience{
+    position: relative;
+    top:1250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+}
 
+.nextechLogo{
+    position: relative;
+    top:1250px;
+    left:10%;
+    width:35%;
+}
 
+.elevateLogo{
+    position:relative;
+    top:1250px;
+    left:20%;
+    width:35%;
+}
 
+.vexLogo{
+    position:relative;
+    top:1350px;
+    left:10%;
+    width:35%;
+}
 
-    
+.nhsLogo{
+    position: relative;
+    top:1350px;
+    left:20%;
+    width:35%;
+}
 
- 
-
-.slider-wrapper {
+.slider-wrapper { 
     position: absolute;
-    top:50%;
-    left:45%;
+    top: 150%;
+    left: 46%;
     max-width: 40rem;
+    height: 400px; 
     margin: 0 auto;
     background-image: url('https://static.wikitide.net/therealmsmpwiki/8/8c/Book_and_Quill_Page_Blank_Mid.png');
     background-size: cover;
@@ -328,13 +349,13 @@ button:hover{
 
 .slider {
     display: flex;
-    aspect-ratio: 16 / 9;
+    height: 100%; /* Fill the slider-wrapper */
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25%);
     border-radius: 0.5rem;
-    
+
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* Internet Explorer 10+ */
 }
@@ -343,42 +364,101 @@ button:hover{
     display: none;  /* Chrome, Safari, Edge */
 }
 
-.slider img{
-    flex:1 0 100%;
+.slider img {
+    flex: 1 0 100%;
     scroll-snap-align: start;
     object-fit: contain;
+    height: 100%; 
+    width: auto;  
 }
 
-.slider-nav{
-    display:flex;
-    column-gap:1rem;
+
+.slider-nav {
+    display: flex;
+    column-gap: 1rem;
     position: absolute;
-    bottom:1.25rem;
-    left:50%;
+    bottom: 1.25rem;
+    left: 50%;
     transform: translateX(-50%);
-    z-index:1;
+    z-index: 1;
 }
 
-.slider-nav a{
-    width:0.5rem;
-    height:0.5rem;
+.slider-nav a {
+    width: 0.5rem;
+    height: 0.5rem;
     border-radius: 50%;
     background-color: #fff;
     opacity: 0.75;
-    transition:opacity ease 250ms;
+    transition: opacity ease 250ms;
 }
 
-.slider-nav a:hover{
+.slider-nav a:hover {
     opacity: 1;
 }
 
-.project{
-    display:none;
+.projectT{
+    position: relative;
+    left:50%;
+    top:60px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
 }
 
-.contactsP{
-    display:none;
+.projectContainer{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    top:60px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap:20px;
+
 }
+
+.website{
+    height:25%;
+    position: relative;
+    left:5%;
+}
+
+.coup{
+    height:25%;
+    position: relative;
+    left:100%;
+}
+
+.quiz{
+    height:25%;
+    position:relative;
+
+}
+
+.obby{
+    height:25%;
+    position:relative;
+}
+
+.siteC figcaption{
+    position: relative;
+    left:5%;
+    font-size:29px;
+}
+
+.siteC p{
+    position: relative;
+    left:5%;
+    font-size:15px;
+    max-width:30%;
+}
+
+.coupC figcaption{
+    position: relative;
+    left:40%;
+    font-size:29px;
+}
+
 
 .contactsP h1{
     text-align: center;
