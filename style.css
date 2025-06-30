@@ -413,31 +413,33 @@ button:hover{
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap; 
-    gap:20px;
-
 }
 
 .website{
-    height:25%;
+    width:45%;
     position: relative;
-    left:5%;
+    left:4%;
 }
 
 .coup{
-    height:25%;
-    position: relative;
-    left:100%;
+    width:42%;
+    top:2.5%;
+    left:54%;
+    position: absolute;
 }
 
 .quiz{
-    height:25%;
+    width:45%;
     position:relative;
-
+    left:4%;
 }
 
 .obby{
-    height:25%;
-    position:relative;
+    width:42%;
+    height:30%;
+    top:51%;
+    left: 54%;
+    position:absolute;
 }
 
 .siteC figcaption{
@@ -454,11 +456,47 @@ button:hover{
 }
 
 .coupC figcaption{
-    position: relative;
-    left:40%;
-    font-size:29px;
+    position: absolute;
+    top:28%;
+    left:64%;
+    font-size:30px;
 }
 
+.coupC p{
+    position:absolute;
+    left:54.5%;
+    top:32%;
+    font-size:15px;
+    max-width:43%;
+}
+
+.quizC figcaption{
+    position: relative;
+    left:4.5%;
+    font-size:23px;
+}
+
+.quizC p{
+    position: relative;
+    left:5%;
+    font-size:15px;
+    max-width:30%;
+}
+
+.obbyC figcaption{
+    position: absolute;
+    top:81%;
+    left:64%;
+    font-size:30px;
+}
+
+.obbyC p{
+    position:absolute;
+    left:54.5%;
+    top:85%;
+    font-size:15px;
+    max-width:43%;
+}
 
 .contactsP h1{
     text-align: center;
