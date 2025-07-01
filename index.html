@@ -9,7 +9,7 @@
     </head>
 
     <body>
-
+         <audio id="click-sound" src="sounds/Minecraft - Buttonplate Click Sound Eff.mp3" preload="auto"></audio>
         <div class="container">
             <video autoplay loop muted plays-incline class="background">
                 <source src ="underwater.mp4" type="video/mp4">
@@ -32,74 +32,102 @@
         </div>
 
         <div class="aboutMe" style="display:none">
-            <img class="info" src="Who-is-Joshuan.png">
-            <p class ="knowMe">Hello! I'm Joshuan Miranda-Gonzalez and I'm interetsed in becoming a Game Developer/Designer in the future. I love to draw, play board games, and video games, and a collector of Transformers figures. I attend at Arsenal Techincal Highschool, where I'm also a part of Early College taking dual credit courses, additionally I am a SPAN student for IU.</p>
-            <img class="why" src="Why-Game-Developer.png">
-            <p class="moreMe">Ever since I was little, I always liked playing video games. When the Covid-19 pandemic happened, my passion for video games grew even more, sparking me to wonder how to make video games that people would enjoy to play. Now I am teaching myself how to code, design, and animate. I recently started making games on ROBLOX. I'm taking an intership at Nextech to learn more about coding and soon take a class at IU related to my career. My goal is to create games for people to enjoy playing.</p>
-            <div class="slider-wrapper">
-                <div class="slider">
-                    <img id="nextech" src="images/nextech.PNG"/>
-                    <img id="nhs" src ="images/nhs.jpg"/>
-                    <img id="flower" src="images/flower.jpg"/>
-                    <img id="king" src="images/island.jpg"/>
-                    <img id="xmas" src="images/gift.jpg"/>
-                    <img id="elevate" src="images/malltrip.jpg"/>
-                </div>
-                <div class="slider-nav">
-                    <a href="#nextech"></a>
-                    <a href="#nhs"></a>
-                    <a href="#flower"></a>
-                    <a href="#king"></a>
-                    <a href="#xmas"></a>
-                    <a href="#elevate"></a>
-                </div>
-            </div>
-            <img class="skill" src="My-Skills.png">
-           
-            <img class="one" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="eleven">HTML</figcaption>
-            <img class="two" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="twelve">CSS</figcaption>
-            <img class="three" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="thirteen">JavaScript</figcaption>
-            <img class="four" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="fourteen">Python</figcaption>
-            <img class="five" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="fifthteen">Lua</figcaption>
-            <img class="six" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="sixteen">Time Mangement</figcaption>
-            <img class="seven" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="seventeen">Problem Solving</figcaption>
-            <img class="eight" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="eighteen">Creativity</figcaption>
-            <img class="nine" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="nineteen">Bilingual</figcaption>
-            <img class= "ten" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
-            <figcaption class="twenty">Persistent</figcaption>
             
-            <img class="experience" src="My-Experiences.png">
-             <a href="https://nextech.org/about/">
-                <img class="nextechLogo"src="https://nextech.org/wp-content/uploads/2020/12/Nextech-Logo-CMYK-White-1536x535.png">
-            </a>
-            <a href="https://www.elevateindy.org/">
-                <img class="elevateLogo"src="images/elevate-removebg-preview.png">
-            </a>
-            <a href="https://www.vexrobotics.com/?srsltid=AfmBOooNWP1Zw94RuaO5o8vCSnUHbqkV9xXizTtill5-jAEy2dtB4WJD">
-                <img class ="vexLogo"src="https://content.vexrobotics.com/images/vex-robotics-2c.svg">
-            </a>
-            <a href="https://www.nationalhonorsociety.org/">
-                <img class="nhsLogo"src="https://1000logos.net/wp-content/uploads/2024/02/National-Honor-Society-Logo.png">
-            </a>
+                <nav class="main-nav">
+                    <video autoplay muted loop playsinline class="nav-video-bg">
+                        <source src="nether.mp4" type="video/mp4">
+                            
+                    </video>
+                    <ul>
+                        <li><a href="#" class="navHome">Home</a></li>
+                        <li><a href="#" class="navAbout">About Me</a></li>
+                        <li><a href="#" class="navProjects">Projects</a></li>
+                        <li><a href="#" class="navContact">Contact</a></li>
+                    </ul>
+                </nav>
+
+
+                <img class="info" src="Who-is-Joshuan.png">
+                <p class ="knowMe">Hello! I'm Joshuan Miranda-Gonzalez and I'm interetsed in becoming a Game Developer/Designer in the future. I love to draw, play board games, and video games, and a collector of Transformers figures. I attend at Arsenal Technical Highschool, where I'm also a part of Early College taking dual credit courses, additionally I am a SPAN student for IU.</p>
+                <img class="why" src="Why-Game-Developer.png">
+                <p class="moreMe">Ever since I was little, I always liked playing video games. When the Covid-19 pandemic happened, my passion for video games grew even more, sparking me to wonder how to make video games that people would enjoy to play. Now I am teaching myself how to code, design, and animate. I recently started making games on ROBLOX. I'm taking an intership at Nextech to learn more about coding and soon take a class at IU related to my career. My goal is to create games for people to enjoy playing.</p>
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <img id="nextech" src="images/nextech.PNG"/>
+                        <img id="nhs" src ="images/nhs.jpg"/>
+                        <img id="flower" src="images/flower.jpg"/>
+                        <img id="king" src="images/island.jpg"/>
+                        <img id="xmas" src="images/gift.jpg"/>
+                        <img id="elevate" src="images/malltrip.jpg"/>
+                    </div>
+                    <div class="slider-nav">
+                        <a href="#nextech"></a>
+                        <a href="#nhs"></a>
+                        <a href="#flower"></a>
+                        <a href="#king"></a>
+                        <a href="#xmas"></a>
+                        <a href="#elevate"></a>
+                    </div>
+                </div>
+                <img class="skill" src="My-Skills.png">
+            
+                <img class="one" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="eleven">HTML</figcaption>
+                <img class="two" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="twelve">CSS</figcaption>
+                <img class="three" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="thirteen">JavaScript</figcaption>
+                <img class="four" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="fourteen">Python</figcaption>
+                <img class="five" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="fifthteen">Lua</figcaption>
+                <img class="six" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="sixteen">Time Mangement</figcaption>
+                <img class="seven" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="seventeen">Problem Solving</figcaption>
+                <img class="eight" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="eighteen">Creativity</figcaption>
+                <img class="nine" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="nineteen">Bilingual</figcaption>
+                <img class= "ten" src="https://minecraft.wiki/images/Enchanted_Book.gif?b21c4">
+                <figcaption class="twenty">Persistent</figcaption>
+                
+                <img class="experience" src="My-Experiences.png">
+                <a href="https://nextech.org/about/">
+                    <img class="nextechLogo"src="https://nextech.org/wp-content/uploads/2020/12/Nextech-Logo-CMYK-White-1536x535.png">
+                </a>
+                <a href="https://www.elevateindy.org/">
+                    <img class="elevateLogo"src="images/elevate-removebg-preview.png">
+                </a>
+                <a href="https://www.vexrobotics.com/?srsltid=AfmBOooNWP1Zw94RuaO5o8vCSnUHbqkV9xXizTtill5-jAEy2dtB4WJD">
+                    <img class ="vexLogo"src="https://content.vexrobotics.com/images/vex-robotics-2c.svg">
+                </a>
+                <a href="https://www.nationalhonorsociety.org/">
+                    <img class="nhsLogo"src="https://1000logos.net/wp-content/uploads/2024/02/National-Honor-Society-Logo.png">
+                </a>
+            
         </div>
 
             <div class="project" style="display:none">
+                <nav class="main-nav">
+                    <video autoplay muted loop playsinline class="nav-video-bg">
+                        <source src="nether.mp4" type="video/mp4">
+                        
+                    </video>
+                    <ul>
+                        <li><a href="#" class="navHome">Home</a></li>
+                        <li><a href="#" class="navAbout">About Me</a></li>
+                        <li><a href="#" class="navProjects">Projects</a></li>
+                        <li><a href="#" class="navContact">Contact</a></li>
+                    </ul>
+                </nav>
                 <img class="projectT" src="My-Projects.png">
                 <div class="projectContainer">
                     <div class="siteC">
                         <a href="https://joshuan777.github.io/int-u2-project-starter-code-1/">
                             <img class="website" src="images/website.png"/>
                         </a>
-                            <figcaption>Stop Poverty Around the World</figcaption>
+                            <h1>Stop Poverty Around the World</h1>
                             <p>This was my first ever project to ever make at Nextech and using HTML and CSS for the first time as well. I made a website to spread awareness to poverty around the world.</p>
                     </div>    
 
@@ -107,14 +135,14 @@
                         <a href="https://joshuan777.github.io/int-u3-project-starter-code/">
                             <img class="coup" src="images/coup.png"/>
                         </a>
-                        <figcaption>Guess the Liar</figcaption>
-                        <p>My second project at Nextech, using HTML, CSS, and JavaScript. I made a game based from a board game, Coup, but a bit differently. There are two modes and have to guess the liar to win or else you lose.</p>
+                            <h1>Guess the Liar</h1>
+                            <p>My second project at Nextech, using HTML, CSS, and JavaScript. I made a game based from a board game, Coup, but a bit differently. There are two modes and have to guess the liar to win or else you lose.</p>
                     </div>
                     <div class="quizC">
                         <a href="https://joshuan777.github.io/int-u4-project-23-24-starter-code/">
                             <img class="quiz" src="images/quiz.png"/>
                         </a>                        
-                            <figcaption>Which Transformer Character are You?</figcaption>
+                            <h1>Which Transformer Character are You?</h1>
                             <p>My third project at Nextech was making a quiz, using HTML, CSS, and JavaScript. My was about Transformer characters with four questions and four outcomes of which character you are.</p>
                     </div>
 
@@ -122,21 +150,47 @@
                         <a href="https://www.roblox.com/games/17809576256/Classic-EASY-Rainbow-Obby">
                             <img class="obby" src="images/obby.png"/>
                         </a>
-                            <figcaption>ROBLOX Obby</figcaption>
+                            <h1>ROBLOX Obby</h1>
                             <p>This is a personal project for me and is my first game that I ever made. I decided to make games on ROBLOX because I'm familiar to using ROBLOX and will make more games in future.</p>
                     </div>
                 </div>
             </div>
 
             <div class="contactsP" style="display:none">
-                <h1>Contact Me!</h1>
-                <form action="https://api.web3forms.com/submit" method="POST">
-                    <input type="hidden" name="access_key" value="86eaae6a-25d4-480d-91ef-7c00bc14ff7b">
-                    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
-                    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-                    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-                    <button type="Sumbit">Send</button>
-                </form>
+                    <nav class="main-nav">
+                        <video autoplay muted loop playsinline class="nav-video-bg">
+                            <source src="nether.mp4" type="video/mp4">
+                            
+                        </video>
+                        <ul>
+                            <li><a href="#" class="navHome">Home</a></li>
+                            <li><a href="#" class="navAbout">About Me</a></li>
+                            <li><a href="#" class="navProjects">Projects</a></li>
+                            <li><a href="#" class="navContact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <img class="contactT" src="Contact-Me.png">
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="86eaae6a-25d4-480d-91ef-7c00bc14ff7b">
+                        <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                        <button type="Submit">Send</button>
+                    </form>
+                    <div class="infoC">
+                        <div class="contactInfo">
+                            <img class="phone" src="images/phone.png"/>
+                            <h1>317-500-3693</h1>
+                        </div>
+                        <div class="contactInfo">
+                            <img class="email" src="images/email-removebg-preview.png"/>
+                            <h1>joshuanmirandagonzalez@gmail.com</h1>
+                        </div>
+                        <div class="contactInfo">
+                        <img class="linkedin" src="images/linkedin-removebg-preview.png"/>
+                        <a href="https://www.linkedin.com/in/joshuan-miranda-gonzalez-597507372/">LinkedIn</a>
+                    </div>
+                </div>
             </div>
     </body>
 </html>

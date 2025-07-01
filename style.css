@@ -106,15 +106,71 @@ button:hover{
 
 }
 
+
 .aboutMe {
-    background-image: url('https://images3.alphacoders.com/132/thumb-1920-1321959.png');
+    background-image: url('https://media1.tenor.com/m/dFETBXHPBecAAAAC/minecraft-winter.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: block;
     width: 100%;
-    height:3250px;
+    height:100%;
 }
+
+
+.main-nav {
+    background-image: url('your-image-path.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    height:40px; 
+    padding: 20px;
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.nav-video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-nav a {
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 2px 2px #4C4C4C;
+    padding: 8px 16px;
+}
+
+.main-nav a:hover {
+    color: yellow;
+    border-radius: 4px;
+}
+
 
 .info{
     position:relative;
@@ -396,10 +452,20 @@ button:hover{
     opacity: 1;
 }
 
+.project{
+    background-image: url('https://s2.ezgif.com/tmp/ezgif-2acd4d530f666d.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    width: 100%;
+    height:1150px;
+}
+
 .projectT{
     position: relative;
     left:50%;
-    top:60px;
+    top:140px;
     transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
@@ -415,103 +481,173 @@ button:hover{
     flex-wrap: wrap; 
 }
 
+
 .website{
     width:45%;
     position: relative;
     left:4%;
+    top:100px;
+    margin: 0;
+    padding: 0;
 }
 
 .coup{
-    width:42%;
-    top:2.5%;
-    left:54%;
+    width:46%;
+    top:11.5%;
+    left:51%;
     position: absolute;
+    margin:0;
+    padding:0;
 }
 
 .quiz{
     width:45%;
     position:relative;
     left:4%;
+    top:140px;
+    margin:0;
+    padding:0;
 }
 
 .obby{
-    width:42%;
+    width:46%;
     height:30%;
-    top:51%;
-    left: 54%;
+    top:65%;
+    left:51%;
     position:absolute;
+    margin:0;
+    padding:0;
 }
 
-.siteC figcaption{
+.siteC h1,
+.siteC p {
+    width: 45%; 
+    top:22.1%;
     position: relative;
-    left:5%;
-    font-size:29px;
-}
-
-.siteC p{
-    position: relative;
-    left:5%;
-    font-size:15px;
-    max-width:30%;
-}
-
-.coupC figcaption{
-    position: absolute;
-    top:28%;
-    left:64%;
-    font-size:30px;
-}
-
-.coupC p{
-    position:absolute;
-    left:54.5%;
-    top:32%;
-    font-size:15px;
-    max-width:43%;
-}
-
-.quizC figcaption{
-    position: relative;
-    left:4.5%;
-    font-size:23px;
-}
-
-.quizC p{
-    position: relative;
-    left:5%;
-    font-size:15px;
-    max-width:30%;
-}
-
-.obbyC figcaption{
-    position: absolute;
-    top:81%;
-    left:64%;
-    font-size:30px;
-}
-
-.obbyC p{
-    position:absolute;
-    left:54.5%;
-    top:85%;
-    font-size:15px;
-    max-width:43%;
-}
-
-.contactsP h1{
+    left: 4%;
+    margin: 0;
+    padding: 5px 0; 
+    font-size: 20px;
+    background-image: url('https://mineblocks.com/1/wiki/images/d/d6/Nether_Bricks.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
     text-align: center;
+}
+
+.coupC p,
+.coupC h1 {
+    width: 46%; 
+    position: absolute;
+    left: 51%;
+    margin: 0;
+    padding: 5px 0; 
+    font-size: 20px;
+    background-image: url('https://mineblocks.com/1/wiki/images/d/d6/Nether_Bricks.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.coupC p {
+    top:46%;
+}
+
+.coupC h1 {
+    top:42%;
+}
+
+.quizC h1,
+.quizC p {
+    width: 45%; 
+    top:31%;
+    position: relative;
+    left: 4%;
+    margin: 0;
+    padding: 5px 0; /* Top and bottom padding increase background area */
+    font-size: 20px;
+    background-image: url('https://mineblocks.com/1/wiki/images/d/d6/Nether_Bricks.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.obbyC p,
+.obbyC h1 {
+    width: 46%; 
+    position: absolute;
+    left: 51%;
+    margin: 0;
+    padding: 5px 0; 
+    font-size: 20px;
+    background-image: url('https://mineblocks.com/1/wiki/images/d/d6/Nether_Bricks.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+
+.obbyC p {
+    top:98%;
+}
+
+.obbyC h1 {
+    top:94%;
+}
+
+
+.contactsP{
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fc6823d6-4ca6-44ec-a9fb-1b81065d21fc/ddn9pbz-00a61234-1767-4b1f-8d0b-0e7f006ec751.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZjNjgyM2Q2LTRjYTYtNDRlYy1hOWZiLTFiODEwNjVkMjFmY1wvZGRuOXBiei0wMGE2MTIzNC0xNzY3LTRiMWYtOGQwYi0wZTdmMDA2ZWM3NTEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.4kqklvqQpjIdiFHZ8zRpbR-Un9CXd6bwkhCHqpPsasA'); 
+    background-size: cover;    
+    background-position: center;  
+    background-repeat: no-repeat; 
+    height: 100vh;                
+    width: 100%;  
+}
+
+.contactT{
+    position: relative;
+    left:50%;
+    top:140px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
 }
 
 form input,
 form textarea{
     display:block;
-    width:100%;
+    width:55%;
+    position: relative;
     margin-bottom: 1px;
+    top:140px;
+    left:22%;
     padding:10px;
     border:none;
     border-radius: 5px;
     background-color:#f7f7f7;
     color:#333
+}
+
+form textarea {
+    display: block;
+    width: 55%;
+    position: relative;
+    margin-bottom: 1px;
+    top: 140px;
+    left: 22%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+    height: 75px;
 }
 
 form input:focus,
@@ -524,4 +660,41 @@ form button{
     display:block;
     cursor: pointer;
     transition: 0.3s ease;
+    position: relative;
+    top:160px;
+    left:35%;
+    width:30%;
+}
+
+.infoC {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center; 
+  position: relative;
+  top:190px;
+  left:-2%;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactInfo img {
+  width: 45px;
+  height: auto;
+}
+
+.contactInfo h1 {
+  font-size: 10px;
+  margin: 0;
+  color:white;
+}
+
+.contactInfo a {
+  font-size: 10px;
+  text-decoration: none;
+  color:white;
 }
