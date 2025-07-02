@@ -1,4 +1,3 @@
-/* Small phones (portrait) */
 @media (max-width: 480px) {
     .career, .title, .me, .work, .contact, .overworld, .theNether, .theEnd,
     .one, .two, .three, .four, .five, .six, .seven,
@@ -40,7 +39,6 @@
     }
 }
 
-/* Tablets (landscape + portrait) */
 @media (min-width: 481px) and (max-width: 768px) {
     .career, .title {
         left: 10%;
@@ -75,7 +73,6 @@
     }
 }
 
-/* Desktops and Laptops */
 @media (min-width: 769px) and (max-width: 1024px) {
     .title {
         font-size: 24px;
@@ -96,9 +93,9 @@
     }
 }
 
-/* Large screens */
+
 @media (min-width: 1025px) {
-    /* Optional adjustments for very large displays */
+
 }
 
 
