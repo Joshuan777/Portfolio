@@ -25,7 +25,7 @@ fetch("sounds/Minecraft - Buttonplate Click Sound Eff.mp3")
   })
   .catch(e => console.error("Audio loading error:", e));
 
-// Play click sound
+// plays the sound when the button is clicked
 function playClickSound(e) {
   if (['dino', 'anotherClass'].some(cls => e.currentTarget.classList.contains(cls))) return;
   if (!clickBuffer) return;

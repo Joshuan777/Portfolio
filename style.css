@@ -256,6 +256,48 @@ button:hover{
     align-items: center;
 }
 
+.Games{
+    position: absolute;
+    left:47.5%;
+    top:22.9%;
+    width:50%;
+}
+
+.roblox{
+    position:absolute;
+    left:45%;
+    top:25%;
+    width:25%;
+}
+
+.minecraft{
+    position:absolute;
+    top:27%;
+    width:25%;
+    left:70%;
+}
+
+.mario{
+    position:absolute;
+    top:37%;
+    width:25%;
+    left:45%;
+}
+
+.clash{
+    position:absolute;
+    top:37%;
+    width:25%;
+    left:70%;
+}
+
+.pvz{
+    position:absolute;
+    top:44%;
+    width:15%;
+    left:63%;
+}
+
 .one{
     position: absolute;
     top:55%;
@@ -436,7 +478,7 @@ button:hover{
 .slider-wrapper { 
     position: absolute;
     top:2%;
-    left: 46%;
+    left: 48%;
     max-width: 40rem;
     height: 400px; 
     margin: 0 auto;
@@ -444,25 +486,25 @@ button:hover{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 1rem;
+    padding: 0;
     border-radius: 0.5rem;
 }
 
 .slider {
     display: flex;
-    height: 100%; /* Fill the slider-wrapper */
+    height: 100%; 
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25%);
     border-radius: 0.5rem;
 
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
 }
 
 .slider::-webkit-scrollbar {
-    display: none;  /* Chrome, Safari, Edge */
+    display: none;  
 }
 
 .slider img {
@@ -612,7 +654,7 @@ button:hover{
     position: relative;
     left: 4%;
     margin: 0;
-    padding: 5px 0; /* Top and bottom padding increase background area */
+    padding: 5px 0; 
     font-size: 20px;
     background-image: url('https://mineblocks.com/1/wiki/images/d/d6/Nether_Bricks.png'); 
     background-size: cover; 
